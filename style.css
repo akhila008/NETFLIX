@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* font-family: sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+.left2 h1,.right3 h1{
+    font-weight: 900;
+    font-size: 42px;
+}
+.li,li{
+    list-style: none;
+}
+.menu{
+    
+    /* padding: 10px 150px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 13vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in{
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight : 550;
+    cursor:pointer;
+    transition: all;
+
+}
+.english{
+    font-size: 1.3rem;
+}
+.menuright{
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    gap: 25px;
+    
+}
+.english{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 7px 13px;
+    font-size: 1rem;
+    font-weight : 500;
+    width: 125px;
+    background-color: rgba(66, 64, 64,0.2);
+    cursor: pointer;
+}
+.globe{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.english img{
+    width: 8px;
+    height: 6px;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/pic1.jpg");
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px 150px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.box{
+    display: flex;
+    gap: 5px;
+
+}
+.search{
+    background-color: rgba(66, 64, 64,0.2);
+    border: 1px solid rgb(107, 101, 101);
+    width: 400px;
+    height: 50px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+   }
+
+.enter{
+    background-color: red;
+    padding: 10px 30px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition-property: all;
+}
+.enter:hover,.sign-in:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+}
+.container6 h1{
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container2{
+    margin-top: 7px;
+    padding: 50px 150px;
+    width: 100%;
+    height: 38vw;
+    background-color: black;
+}
+.container2inside{
+    display: flex;
+}
+.container2inside .left2,.container2inside .right3{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 105px;
+    padding-right: 27px;
+}
+
+.left2 p,.right3 p{
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+.right2 img,.left3 img{
+    width: 520px;
+    height: 400px;
+}
+.container6,.footer{
+    margin-top: 7px;
+    padding: 50px 150px 20px;
+    width: 100%;
+    font-size: 1.3rem;
+    /* height: 135vh; */
+    background-color: black;
+}
+.net{
+    font-size: 1rem;
+    color: #FFFFFFB3;
+
+}
+
+.question li{
+    list-style: none;
+    display: flex;
+    /* background-color: rgb(36, 35, 35); */
+    background-color:rgb(37, 37, 37);
+    width: 100%;
+    height: 83px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    
+}
+.question li:hover{
+    background-color:rgb(54, 54, 54);
+}
+.question li span{
+    font-size: 1.5rem;
+}
+.question .p1{
+    font-size: 3rem;
+}
+.question{
+    display: flex;
+    margin-top: 12px;
+    gap: 9px;
+    flex-direction: column;
+    cursor: pointer;
+}
+.boxes3{
+    margin-top: 20px;
+    display: flex;
+    gap: 220px;
+    align-items: self-start;
+}
+.boxes3 ul li{
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    color: #FFFFFFB3;
+    font-weight : 500;
+    cursor: pointer;
+}
+
